@@ -84,7 +84,7 @@ router.post('/api/reg', function (req,res) {
 				results.message = '注册成功！'
 				return res.send(results)
 			} else {
-				results.message = '注册失败！用户已存在!'
+				results.message = '注册失败！用户已存在'
 				return res.send(results)
 			}
 		})
