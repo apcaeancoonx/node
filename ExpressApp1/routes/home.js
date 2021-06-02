@@ -17,7 +17,7 @@ function AjaxResult(success, message, redirectUrl, isReload,data) {
 router.get('/', function (req, res) {
 	res.redirect('/index.html');
 });
-router.post('/api/login', function (req, res) {
+router.post('/login', function (req, res) {
 	var results = new AjaxResult();
 	if (req.body['username'] == '' || req.body['pwd'] == '') {
 		results.message ='请填写必须项'
@@ -49,7 +49,7 @@ router.post('/api/login', function (req, res) {
 })
 
 //检测用户名
-router.post('/api/checkuser', function (req,res) {
+router.post('/checkuser', function (req,res) {
 	var results = new AjaxResult();
 	var name = req.body['username'];
 	new sql.ConnectionPool(dbconfig).connect().then(pool => {
@@ -67,7 +67,7 @@ router.post('/api/checkuser', function (req,res) {
 		})
 })
 //注册
-router.post('/api/reg', function (req,res) {
+router.post('/reg', function (req,res) {
 	var results = new AjaxResult();
 	var time = new Date();
 	time.setHours(time.getHours() + 8);
@@ -94,7 +94,7 @@ router.post('/api/reg', function (req,res) {
 })
 
 //退出
-router.post('/api/logout', function (req, res) {
+router.post('/logout', function (req, res) {
 	var results = new AjaxResult();
 	req.session.destroy()
 	results.success = true;

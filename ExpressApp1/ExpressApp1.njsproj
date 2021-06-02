@@ -40,6 +40,7 @@
     </Compile>
     <Compile Include="public\static\js\app.7150c719237151b741d3.js" />
     <Compile Include="public\static\js\app.7a77be993b0083ab0372.js" />
+    <Compile Include="public\static\js\app.8b2619f898dbca93dc49.js" />
     <Compile Include="public\static\js\manifest.3ad1d5771e9b13dbdad2.js" />
     <Compile Include="public\static\js\vendor.7fde2501cc902d8bfedc.js" />
     <Compile Include="routes\home.js">
@@ -59,11 +60,14 @@
     <Content Include="public\index.html" />
     <Content Include="public\static\css\app.13fcadd525bbeb3c812336603c3d9dc3.css" />
     <Content Include="public\static\css\app.13fcadd525bbeb3c812336603c3d9dc3.css.map" />
+    <Content Include="public\static\css\app.146d03635b43b8a6e079838a62fd734c.css" />
+    <Content Include="public\static\css\app.146d03635b43b8a6e079838a62fd734c.css.map" />
     <Content Include="public\static\css\app.95caafa49f65490f96c5a52e7d004f80.css" />
     <Content Include="public\static\css\app.95caafa49f65490f96c5a52e7d004f80.css.map" />
     <Content Include="public\static\fonts\element-icons.6f0a763.ttf" />
     <Content Include="public\static\js\app.7150c719237151b741d3.js.map" />
     <Content Include="public\static\js\app.7a77be993b0083ab0372.js.map" />
+    <Content Include="public\static\js\app.8b2619f898dbca93dc49.js.map" />
     <Content Include="public\static\js\manifest.3ad1d5771e9b13dbdad2.js.map" />
     <Content Include="public\static\js\vendor.7fde2501cc902d8bfedc.js.map" />
     <Content Include="public\stylesheets\main.css" />
